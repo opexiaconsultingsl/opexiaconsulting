@@ -2,129 +2,94 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Opexia Consulting | Página en construcción</title>
+    <title>OPEXIA CONSULTING | Página en construcción</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
-    
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
 
+    <style>
         body {
-            font-family: 'Inter', sans-serif;
-            background: linear-gradient(135deg, #0f172a, #1e293b);
-            color: #f1f5f9;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0086BF;
+            color: white;
+            text-align: center;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            text-align: center;
         }
 
         .container {
-            max-width: 800px;
-            padding: 40px;
-        }
-
-        .brand {
-            font-size: 1.4rem;
-            letter-spacing: 4px;
-            color: #38bdf8;
-            margin-bottom: 40px;
-            font-weight: 500;
+            animation: fadeIn 1.5s ease-in-out;
         }
 
         h1 {
-            font-size: 3rem;
-            letter-spacing: 3px;
-            margin-bottom: 30px;
-            font-weight: 700;
+            font-size: 42px;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
         }
 
         h2 {
-            font-size: 2rem;
-            margin-bottom: 10px;
-            font-weight: 500;
+            font-size: 28px;
+            margin-top: 40px;
         }
 
         p {
-            font-size: 1.2rem;
-            font-weight: 300;
-            margin-bottom: 8px;
-            opacity: 0.85;
+            font-size: 18px;
+            margin: 10px 0;
         }
 
-        .divider {
-            width: 80px;
-            height: 3px;
-            background: #38bdf8;
-            margin: 30px auto;
+        hr {
+            width: 70%;
+            margin: 25px auto;
+            border: 0;
+            border-top: 2px solid white;
+            opacity: 0.8;
         }
 
-        .contact {
-            margin-top: 30px;
-            font-size: 1rem;
-            opacity: 0.7;
-        }
-
-        .contact a {
-            color: #38bdf8;
+        a {
+            color: white;
             text-decoration: none;
+            font-weight: bold;
         }
 
-        .contact a:hover {
-            text-decoration: underline;
+        a:hover {
+            opacity: 0.8;
         }
 
-        footer {
-            position: absolute;
-            bottom: 20px;
-            width: 100%;
-            font-size: 0.8rem;
-            opacity: 0.4;
-        }
-
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 2.2rem;
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(15px);
             }
-            h2 {
-                font-size: 1.5rem;
-            }
-            p {
-                font-size: 1rem;
+            to {
+                opacity: 1;
+                transform: translateY(0);
             }
         }
     </style>
 </head>
-
 <body>
 
     <div class="container">
 
-        <div class="brand">OPEXIA CONSULTING</div>
-
         <h1>PÁGINA EN CONSTRUCCIÓN</h1>
+        <hr>
 
-        <div class="divider"></div>
+        <h2>OPEXIA CONSULTING</h2>
+        <hr>
 
-        <h2>Operational Excellence & AI</h2>
         <p>Consultoría de Excelencia Operacional y Automatización</p>
 
-        <div class="contact">
-            <p>Contacto:</p>
-            <p><a href="mailto:contacto@opexiaconsulting.com">contacto@opexiaconsulting.com</a></p>
-        </div>
+        <br><br>
+
+        <p><strong>Contacto:</strong></p>
+        <p>
+            <a href="mailto:info@opexiaconsulting.com">
+                info@opexiaconsulting.com
+            </a>
+        </p>
 
     </div>
-
-    <footer>
-        © 2026 Opexia Consulting. Todos los derechos reservados. INDEX.
-    </footer>
 
 </body>
 </html>
